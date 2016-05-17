@@ -1,3 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Cesar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_bd2078f6e538df3c049d67b609f1223f59bb7d81\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_92cd1891bacb5407c8710d5a854de5a7bb5697e7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.1_6f7847f97e217f4dda81c94f9e2cc577212aa722\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_86be8ef111b89e39bb4e9f454c6dbd47209740ce\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-android-4.3.5.1_6da77ec83a58f3e6723c85b85e465e436c9eadbe\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_82b7d5eba12799eea7aaac8abf42d55b97453f53\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3.5\1dd0d38df9c6d21e893f2e52403f1cd99e91cd81\httpmime-4.3.5.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpmime-4.3.5_29ea4e514719be6090b3145db6ac985d111e16d7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="ca95febbf8f72db272074acd8cf67ca431477460">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_df6399b028ec65654adc01b76c2c77883674ca94\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="8812ac7114519d7080d6890bafde4c3a635ecbea">
+        <dex dex="C:\Users\Cesar\AndroidStudioProjects\GestorBibliotecario\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3b618c5252d15c4352abbf4c045ada44290b3466\classes.dex" />
+    </item>
+
+</items>

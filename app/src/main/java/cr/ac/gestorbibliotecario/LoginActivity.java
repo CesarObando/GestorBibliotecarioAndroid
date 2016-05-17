@@ -59,8 +59,8 @@ public class LoginActivity extends AppCompatActivity {
     private static final String[] DUMMY_CREDENTIALS = new String[]{
             "foo@example.com:hello", "bar@example.com:world"
     };
-
-
+    private static final String TAG_SUCCESS = "success";
+    private static String wsLogin = "http://smarttourcr.esy.es/WSBiblioteca/Login.php";
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
@@ -68,8 +68,6 @@ public class LoginActivity extends AppCompatActivity {
     private View mProgressView;
     private View mLoginFormView;
     private JsonParser jParserLogin = new JsonParser();
-    private static String wsLogin = "http://smarttourcr.esy.es/WSBiblioteca/Login.php";
-    private static final String TAG_SUCCESS = "success";
     private String TAG_NOMBRE = "nombre";
     private String TAG_APELLIDO = "password";
 
@@ -87,11 +85,20 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Autenticacion autenticacion = new Autenticacion();
-                autenticacion.execute("call 1");
+                autenticacion.execute("", "", "");
             }
         });
     }
 
+    private boolean isEmailValid(String email) {
+        //TODO: Replace this with your own logic
+        return email.contains("@");
+    }
+
+    private boolean isPasswordValid(String password) {
+        //TODO: Replace this with your own logic
+        return password.length() > 4;
+    }
 
     public class Autenticacion extends AsyncTask<String, String, String> {
 
@@ -102,7 +109,7 @@ public class LoginActivity extends AppCompatActivity {
             //mEmailView.getText().toString()
             parametros.add(new BasicNameValuePair("password", mPasswordView.getText().toString()));
             // mPasswordView.getText().toString()
-            JSONObject json = jParserLogin.makeHttpRequest(wsLogin,"POST", parametros);
+            JSONObject json = jParserLogin.makeHttpRequest(wsLogin, "POST", parametros);
             Log.d("Create Response", json.toString());
             try {
                 int success = json.getInt("success");
@@ -122,16 +129,6 @@ public class LoginActivity extends AppCompatActivity {
 
             return null;
         }
-    }
-
-    private boolean isEmailValid(String email) {
-        //TODO: Replace this with your own logic
-        return email.contains("@");
-    }
-
-    private boolean isPasswordValid(String password) {
-        //TODO: Replace this with your own logic
-        return password.length() > 4;
     }
 
 }
